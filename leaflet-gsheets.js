@@ -11,9 +11,9 @@ function init() {
   // these URLs come from Google Sheets 'shareable link' form
   // the first is the polygon layer and the second the points
   var polyURL =
-    "https://docs.google.com/spreadsheets/d/1jD4MqA9K68Dm0qxzncugLVc8dA9BJdr5nJNEFllbPFo/edit?usp=sharing";
+    "https://docs.google.com/spreadsheets/d/19sJSd6WWzhiEljMttQ06AZ4c2IkVU9fIxbYdVGX7lVI/edit?usp=sharing";
   var pointsURL =
-    "https://docs.google.com/spreadsheets/d/1C_UESMIqI7K1i03q23jzLaHDSFiaN3YYEYb0I66m7Fc/edit?usp=sharing";
+    "https://docs.google.com/spreadsheets/d/1UhbNkumWr0DlAw1iRp3Fca8CcY-NvJtGJFXYs2r1GvM/edit?usp=sharing";
 
   Tabletop.init({ key: polyURL, callback: addPolygons, simpleSheet: true });
   Tabletop.init({ key: pointsURL, callback: addPoints, simpleSheet: true }); // simpleSheet assumes there is only one table and automatically sends its data
